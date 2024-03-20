@@ -1,0 +1,63 @@
+.Main{
+    background-color:rgb(227, 197, 160);
+  }
+h1{
+  padding-top: 50px;
+  margin-top: 20px;
+}
+.container{
+ margin-top: 90px;
+}
+.rows{
+  border: #000000;
+  border: 10px;
+}
+Row{
+  border: #000000;
+  border: 10px;
+}
+.navv{
+  background-color: rgb(253, 251, 251);
+  position: fixed;
+}
+.pic{
+  margin-left: 400px;
+}
+  .insta{
+     margin-right: 1000px;
+     border-radius: 2px;
+  }
+  .contact{
+    margin-right: 500px;
+    border-radius: 2px;
+  }
+  
+.sidebar{
+position: absolute;
+height: 100vh;
+width: 180px;
+background-color:whitesmoke;
+box-shadow:0 0 1000px rgba(131, 122, 122, 0.2);       
+    .sidebar-link{
+        display:block;
+        padding:.6em;
+        border-left: .5em solid transparent;
+        margin-bottom: 1em;
+        color:rgb(110, 107, 107);
+        font-size: 1.3em;
+        &.active{
+            border-left-color: var(--primary-color);
+        }
+        &:hover{
+            border-left-color:var(--primary-color);
+            background-color: rgba(250, 53, 53, 0.05);
+        }
+        svg{
+            width: 1.2em;
+            margin-right: .5em;
+        }
+    }         
+}
+.container{
+  margin-bottom: 100px;
+}
